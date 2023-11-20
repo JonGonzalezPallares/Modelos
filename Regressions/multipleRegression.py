@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 
 # pandas lee el CSV y devuelve un dataframe
-df = pd.read_csv("data.csv")
+df = pd.read_csv("Regressions/data.csv")
 
 # seleccionamos peso y volumen como variables independientes
 # y CO2 como variable dependiente de las otras dos.
