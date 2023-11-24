@@ -21,7 +21,7 @@ def lineal():
     def recta(x):
         return slope * x + intercept
     
-    # Array de puntos en X "datos de testing"
+    # Array de puntos separados de manera equitativa en un rango
     x = np.linspace(X.min(), X.max(), 50)
 
     # Prediccion con datos de testing
