@@ -61,7 +61,15 @@ print(f_mod)
 print(odds1)
 print(odds2)
 
-plt.subplot(1, 2, 1)
+# Como se separa cada plot
+#   3: cantidad de filas
+#   1: cantidad de columnas
+#   1: posicion en la que se pone
+#   Posicion:
+#       1
+#       2
+#       3
+plt.subplot(3, 1, 1)
 plt.scatter(X, y)
 plt.plot(arr, model[0])
 plt.plot(arr, f_mod[0])
@@ -69,7 +77,25 @@ plt.xlabel("Size of tumor")
 plt.ylabel("Probability of being malignant")
 plt.title('Probability')
 
-plt.subplot(1, 2, 2)
+#   3: cantidad de filas que tiene
+#   3: cantidad de columnas
+#   4: posicion en la que se pone
+#   Posicion:
+#       1   2   3
+#       4   5   6
+#       7   8   9
+plt.subplot(3, 3, 4)
+plt.plot(arr, odds1[0])
+plt.plot(arr, odds2[0])
+
+#   3: cantidad de filas que tiene
+#   2: cantidad de columnas que tiene
+#   6: posicion en la que se pone
+#   Posicion:
+#       1   2   
+#       3   4   
+#       5   6   
+plt.subplot(3, 2, 6)
 plt.plot(arr, odds1[0])
 plt.plot(arr, odds2[0])
 

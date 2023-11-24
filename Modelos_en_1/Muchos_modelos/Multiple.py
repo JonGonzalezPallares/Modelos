@@ -1,8 +1,8 @@
 import Funciones_generales as fg
 import pandas
 import numpy as np
-from sklearn import linear_model
 import matplotlib.pyplot as plt
+from sklearn import linear_model
 
 def multiple():
     # Funcion para limpiar la pantalla 

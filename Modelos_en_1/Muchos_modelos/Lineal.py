@@ -1,8 +1,8 @@
 import Funciones_generales as fg
-from scipy import stats
 import pandas
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy import stats
 
 def lineal():
     # Funcion para limpiar la pantalla 
