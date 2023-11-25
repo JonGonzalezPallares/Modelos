@@ -5,7 +5,9 @@ from sklearn import linear_model
 
 # pandas lee el CSV y devuelve un dataframe
 df = pd.read_csv("Regressions/data.csv")
+df2 = pd.read_json("Regressions/csvjson.json")
 
+print(df2)
 # seleccionamos peso y volumen como variables independientes
 # y CO2 como variable dependiente de las otras dos.
 X = df[['Weight', 'Volume']]
@@ -29,4 +31,4 @@ ax.scatter(X.Weight, X.Volume, y)
 ax.plot(x_line, y_line, z_vals)
 ax.set(title="Multiple Regression with SciKit Learn", xlabel='Weight', ylabel='Volume', zlabel='CO2')
 
-plt.show()
+#plt.show()

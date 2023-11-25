@@ -43,4 +43,4 @@ plt.xlabel("X axis")
 plt.ylabel("Y axis")
 
 # desplegamos el gráfico
-plt.show()
+#plt.show()

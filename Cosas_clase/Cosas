@@ -1,0 +1,7 @@
+Reemplazar valores "null" con valores null en Pandas
+df.replace('null', pd.NA, inplace=True)
+
+Eliminar filas con al menos un valor nulo
+df_sin_nulos = df.dropna(how='any')
+df.replace([None, 'null', pd.NaT], pd.NA, inplace=True)
+df = pd.json_normalize(data)
