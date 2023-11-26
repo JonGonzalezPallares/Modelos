@@ -31,4 +31,4 @@ ax.scatter(X.Weight, X.Volume, y)
 ax.plot(x_line, y_line, z_vals)
 ax.set(title="Multiple Regression with SciKit Learn", xlabel='Weight', ylabel='Volume', zlabel='CO2')
 
-#plt.show()
+plt.show()
