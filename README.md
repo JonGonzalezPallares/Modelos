@@ -30,3 +30,8 @@ Carpeta "Examen":
 Carpeta "Modelos_en_1":
 Contiene un archivo "home.py" con un menu para acceder a los diferentes modelos que se encuentran en la carpeta "Muchos_modelos".
 "Funciones_generales.py" contiene 
+
+---
+
+# Arrancar programas
+Si se quiere arrancar desde pycharm hace falta tener la version pro para los cuadernos de jupiter
